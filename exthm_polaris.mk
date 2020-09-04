@@ -6,7 +6,7 @@
 
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
-# Inherit some common ArrowOS stuff.
+# Inherit some common Exthm stuff.
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
