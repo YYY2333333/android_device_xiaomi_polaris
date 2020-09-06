@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_polaris.mk
+    $(LOCAL_DIR)/rr_polaris.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_polaris-eng \
-    exthm_polaris-user \
-    exthm_polaris-userdebug
+    rr_polaris-eng \
+    rr_polaris-user \
+    rr_polaris-userdebug
