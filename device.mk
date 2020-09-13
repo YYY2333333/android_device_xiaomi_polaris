@@ -107,7 +107,9 @@ PRODUCT_COPY_FILES += \
 # Secure element
 PRODUCT_PACKAGES += \
     SecureElement
-
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
