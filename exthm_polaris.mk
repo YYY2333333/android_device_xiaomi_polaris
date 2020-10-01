@@ -9,6 +9,8 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 # Inherit some common Exthm stuff.
 $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
+DEVICE_MAINTAINER := palaych
+TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := exthm_polaris
 PRODUCT_DEVICE := polaris
